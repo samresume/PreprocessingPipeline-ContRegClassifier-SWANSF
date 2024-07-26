@@ -1,11 +1,7 @@
 
-# Solar Flare Prediction with ContReg
+# Enhancing Solar Flare Prediction with Contrastive Learning and Multifaceted Preprocessing
 
-This repository contains the Jupyter notebooks and related code for our study on enhancing solar flare prediction using advanced preprocessing and a novel deep learning-based classifier called ContReg on the SWAN-SF dataset.
-
-## Overview
-
-Accurate solar flare prediction is essential due to the potential hazards they pose to astronauts, space equipment, and satellite communication systems. This project enhances prediction accuracy through advanced preprocessing and classification methods, outperforming previous methods.
+Accurate solar flare prediction is essential due to the potential hazards they pose to astronauts, space equipment, and satellite communication systems. Our research enhances solar flare prediction by utilizing advanced data preprocessing and classification methods on the Space Weather Analytics for Solar Flares (SWAN-SF) dataset, which contains comprehensive multivariate time series data of solar active regions. Firstly, our study employs a novel preprocessing pipeline that includes missing value imputation, normalization, balanced sampling, near decision boundary sample removal, and feature selection to significantly boost prediction accuracy. Secondly, we combine contrastive learning with a GRU regression model to develop a novel classifier with high accuracy, thereby further improving prediction performance. To validate the effectiveness of our preprocessing pipeline, we compare and show the performance gain of each step, and to demonstrate the effectiveness of our novel classifier, we compare it to sequence-based deep learning architectures, including LSTM, GRU, RNN, and 1D-CNN, along with previous studies. Our findings demonstrate exceptional True Skill Statistics (TSS) scores, exceeding previous methods and highlighting the critical role of precise data preprocessing and classifier development in time series-based solar flare prediction.
 
 ## Notebooks
 
@@ -61,12 +57,5 @@ Our findings demonstrate exceptional True Skill Statistics (TSS) scores, exceedi
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
 
-## Acknowledgements
-
-We acknowledge the sources and tools used in this project, including the SWAN-SF dataset and the libraries utilized in our analysis.
-
-## Contact
-
-For any questions or issues, please contact [your email or GitHub profile].
