@@ -29,8 +29,8 @@ Accurate solar flare prediction is essential due to the potential hazards they p
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/solar-flare-prediction.git
-cd solar-flare-prediction
+git clone https://github.com/samresume/PreprocessingPipeline-ContRegClassifier-SWANSF.git
+cd PreprocessingPipeline-ContRegClassifier-SWANSF
 ```
 
 2. Install the required libraries:
