@@ -57,7 +57,7 @@ pip install -r requirements.txt
 
 ## Results
 
-Our findings demonstrate exceptional True Skill Statistics (TSS) scores, exceeding previous methods and highlighting the critical role of precise data preprocessing and classifier development in time series-based solar flare prediction.
+Our findings demonstrate exceptional True Skill Statistic (TSS) scores, exceeding previous methods and highlighting the critical role of precise data preprocessing and classifier development in time series-based solar flare prediction.
 
 ## License
 
